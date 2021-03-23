@@ -7,7 +7,9 @@ const [inputNomeUsuario, searchButton] = await waitForElement(() => [
   container.getByTestId("searchButton"),
 ]);
 
+
 // ------------------------------------------------------------------------
+
 
 const Perfil = () => {
   return (
