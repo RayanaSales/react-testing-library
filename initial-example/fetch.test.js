@@ -29,7 +29,7 @@ afterAll(() => server.close());
 
 test("loads and displays greeting", async () => {
   /**
-   * 1- PREPARING
+   * 1- ARRANGE
    *    O render método renderiza um elemento React no DOM.
    *
    * 2- ACT
